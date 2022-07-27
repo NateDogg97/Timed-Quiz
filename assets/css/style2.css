@@ -1,0 +1,125 @@
+* {
+    background-color: #222222;
+}
+
+html {
+    width: 100%;
+    position: relative;
+}
+
+body {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    color: #e9e0c9;
+    width: 100%;
+}
+
+nav {
+    display: inline-flex;
+    visibility: visible;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 90%;
+}
+
+#timeLeft {
+    visibility: hidden;
+}
+
+#viewHighScores {  
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#viewHighScores:hover {
+    color: lightblue;
+}
+
+.forms {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#quizForm, #highScoresForm {
+    width: 50%;
+}
+
+h2, h4  {
+    text-align: center;
+}
+
+#buttons {
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+#return, #clearHighScores {
+    background-color: #f0f8ff;
+    margin: 15px;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+
+
+#answers {
+    display: none;
+    line-height: 1.5;
+    margin-top: 20px;
+    padding: 15px;
+}
+
+#answer1, #answer2, #answer3, #answer4 {
+    background-color:darkcyan;
+    margin: 10px;
+    opacity: 50%;
+    border-radius: 20px;
+    text-align: center;
+}
+
+#answer1:hover, 
+#answer2:hover, 
+#answer3:hover, 
+#answer4:hover,
+#submit:hover,
+#readyBtn:hover {
+    opacity: 100%;
+}
+
+#userName {
+    display: flex;
+    justify-content: center;
+    margin: 15px;
+    padding: 10px;
+    width: 50%;
+    text-align: center;
+    background-color: #444444;
+    color: #e9e0c9;
+    font-size: large;
+}
+
+.userInitials {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+#submit, #readyBtn {
+    padding: 10px;
+    color: #e9e0c9;
+    background-color: darkcyan;
+    border-radius: 20px;
+    font-size: large;
+    opacity: 50%;
+}
+

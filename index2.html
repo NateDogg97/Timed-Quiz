@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Timed Quiz Challenge</title>
+  <link rel="stylesheet" type="text/css" href="./assets/css/style2.css">
+  <link rel="javascript" type="script" href="./assets/js/script2.js">
+</head>
+
+<body>
+    <nav>
+        <p id="viewHighScores">View high scores</p>
+        <p id="timeLeft">Score: <span id="score">105</span></p>
+    </nav>
+  <div class="forms">
+    <form id="quizForm">
+        <h2 id="header"></h2><br>
+        <h4 id="question"></h4>
+        <ol id="answers">
+          <li id="answer1"></li>
+          <li id="answer2"></li>
+          <li id="answer3"></li>
+          <li id="answer4"></li>
+        </ol><br>
+        <div class="userInitials">
+            <button type="submit" id="readyBtn">Begin Quiz</button>
+        </div>
+    </form>
+  </div>
+  <div class="forms">
+    <form id="resultsForm">
+        <h2>Quiz Complete!</h2>
+        <h4>Your final score is: <span id="finalScore"></span></h4>
+         <div class="userInitials">
+          <label for="userName">Your Initials</label>
+          <input type="text" id="userName" name="userName">
+          <button type="submit" id="submit">Submit</button>
+         </div>
+    </form>
+  </div>
+  <div class="forms">
+    <form id="highScoresForm">
+        <h2>High Scores</h2><br>
+         <ol id="studScores"></ol><br>
+          <div id="buttons">
+           <button type="button" id="return">Return</button>
+           <button type="button" id="clearHighScores">Clear</button>
+          </div>
+    </form>
+  </div>  
+    <script src="./assets/js/script2.js"></script>
+</body>
+</html>
